@@ -1,5 +1,5 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
+import projectInferno from "@/assets/images/projectInferno.png";
+import projectAlumniAffairs from "@/assets/images/projectAlumniAffairs.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
@@ -11,37 +11,36 @@ import { Card } from "@/components/Card";
 const portfolioProjects = [
   {
     company: "Inferno DTU",
-    year: "2022",
+    year: "2023",
     title: "Portfolio Page for Team Inferno",
     results: [
       { title: "Attracted more sponsors by 40%" },
       { title: "Increased traffic by 35%" },
     ],
     link: "https://harshdeepsingh0311.github.io/InfernoDTU",
-    image: darkSaasLandingPage,
+    image: projectInferno,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Delhi Technological University",
+    year: "2024",
+    title: "Alumni Affairs Department Website",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Improved design" },
+      { title: "Intoduced functionality like Admin panel" },
+      { title: "Increased traffic by 58%" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "http://alumniaffairs.dtu.ac.in",
+    image: projectAlumniAffairs,
   },
   {
-    company: "Quantum Dynamics",
+    company: "Self Project",
     year: "2023",
-    title: "AI Startup Landing Page",
+    title: "Spotify UI Clone",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Cloned UI" },
+      { title: "Static Website" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "https://harshdeepsingh0311.github.io/Spotify-UI-Clone/",
     image: aiStartupLandingPage,
   },
 ];
