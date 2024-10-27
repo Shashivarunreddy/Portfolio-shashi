@@ -1,6 +1,6 @@
 import projectInferno from "@/assets/images/projectInferno.png";
 import projectAlumniAffairs from "@/assets/images/projectAlumniAffairs.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import projectSpotify from "@/assets/images/spotify.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -41,7 +41,7 @@ const portfolioProjects = [
     results: [{ title: "Cloned UI" }, { title: "Static Website" }],
     code: "https://github.com/Harshdeepsingh0311/Spotify-UI-Clone",
     link: "https://harshdeepsingh0311.github.io/Spotify-UI-Clone/",
-    image: aiStartupLandingPage,
+    image: projectSpotify,
   },
 ];
 
