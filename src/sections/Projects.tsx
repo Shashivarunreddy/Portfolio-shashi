@@ -18,6 +18,7 @@ const portfolioProjects = [
       { title: "Increased traffic by 35%" },
     ],
     link: "https://harshdeepsingh0311.github.io/InfernoDTU",
+    code: "https://github.com/Harshdeepsingh0311/InfernoDTU",
     image: projectInferno,
   },
   {
@@ -30,16 +31,15 @@ const portfolioProjects = [
       { title: "Increased traffic by 58%" },
     ],
     link: "http://alumniaffairs.dtu.ac.in",
+    code: "https://github.com/Harshdeepsingh0311/dtualumniaffairs",
     image: projectAlumniAffairs,
   },
   {
     company: "Self Project",
     year: "2023",
     title: "Spotify UI Clone",
-    results: [
-      { title: "Cloned UI" },
-      { title: "Static Website" },
-    ],
+    results: [{ title: "Cloned UI" }, { title: "Static Website" }],
+    code: "https://github.com/Harshdeepsingh0311/Spotify-UI-Clone",
     link: "https://harshdeepsingh0311.github.io/Spotify-UI-Clone/",
     image: aiStartupLandingPage,
   },
@@ -49,15 +49,19 @@ export const ProjectsSection = () => {
   return (
     <section className="pb-16 lg:py-24" id="projects">
       <div className="container">
-        <SectionHeader title="Real-world Results" eyebrow="Featured Projects" description="See how I transformed concepts into engaging digital experiences."/>
-        
+        <SectionHeader
+          title="Real-world Results"
+          eyebrow="Featured Projects"
+          description="See how I transformed concepts into engaging digital experiences."
+        />
+
         <div className="mt-10 md:mt-20 flex flex-col gap-20">
           {portfolioProjects.map((project, idx) => (
             <Card
               key={project.title}
               className="px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 pb-0 sticky"
               style={{
-                top: `calc(64px + ${idx * 40}px)`
+                top: `calc(64px + ${idx * 40}px)`,
               }}
             >
               <div
@@ -79,7 +83,10 @@ export const ProjectsSection = () => {
                   <hr className="border-t-2 border-white/5 mt-4 md:mt-5" />
                   <ul className="flex flex-col gap-4 mt-4 md:mt-5">
                     {project.results.map((result) => (
-                      <li key={result.title} className="flex gap-2 text-sm md:text-base text-white/50">
+                      <li
+                        key={result.title}
+                        className="flex gap-2 text-sm md:text-base text-white/50"
+                      >
                         <CheckCircleIcon className="size-5 md:size-6" />
                         <span>{result.title}</span>
                       </li>
@@ -87,17 +94,24 @@ export const ProjectsSection = () => {
                   </ul>
                   <a href={project.link}>
                     <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
-                      <span>View Live Site</span>
+                      <span>Live Site</span>
                       <ArrowUpRightIcon className="size-4" />
+                    </button>
+                  </a>
+                  <a href={project.code} className="md:ml-3">
+                    <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
+                      <span>View Code</span>
                     </button>
                   </a>
                 </div>
                 <div className="">
-                  <Image
-                    src={project.image}
-                    alt={project.title}
-                    className="mt-8 lg:mt-0 lg:absolute lg:h-full "
-                  />
+                  <a href={project.link}>
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      className="mt-8 lg:mt-0 lg:absolute lg:h-full "
+                    />
+                  </a>
                 </div>
               </div>
             </Card>
