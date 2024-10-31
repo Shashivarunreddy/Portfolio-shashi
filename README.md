@@ -47,3 +47,6 @@ Visit the portfolio: [https://portfolio-harshdeepsingh.vercel.app](https://portf
 ## 📄 License
 
 This project is open-sourced under the MIT License—feel free to explore, use, and modify!
+
+---
+Inspired by **Frontend Tribe**
