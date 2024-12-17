@@ -25,7 +25,7 @@ This repository contains the code for my personal portfolio website, where I hig
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Harshdeepsingh0311/Portfolio.git
+   git clone https://github.com/Shashivarunreddy/Portfolio-shashi
    ```
 2. **Navigate to the project folder**
    ```bash
