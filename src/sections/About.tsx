@@ -12,7 +12,7 @@ import nextIcon from "@/assets/icons/next.svg";
 import pythonIcon from "@/assets/icons/python.svg";
 import javaIcon from "@/assets/icons/java.svg";
 import cIcon from "@/assets/icons/c.svg";
-import rosIcon from "@/assets/icons/ros.svg";
+// import rosIcon from "@/assets/icons/ros.svg";
 import mapImage from "@/assets/images/map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
@@ -44,10 +44,10 @@ const toolboxItems = [
     title: "Next",
     iconType: nextIcon,
   },
-  {
-    title: "ROS",
-    iconType: rosIcon,
-  },
+  // {
+  //   title: "ROS",
+  //   iconType: rosIcon,
+  // },
   {
     title: "Python",
     iconType: pythonIcon,
@@ -114,8 +114,10 @@ export const AboutSection = () => {
                 <Image src={bookImage} alt="Book cover" />
               </div> */}
               <div className="lg:p-2 lg:-mt-8 -mt-3">
-                <EducationCard image={sgnps} instiName="Sri Guru Nanak Public School" year="2023" course="Percentage: 96.4%" />
-                <EducationCard image={dtu} instiName="Delhi Technological University" year="2023-27" course="Btech (ECE) CGPA-8.6" />
+                <EducationCard image={dtu} instiName="Sphoorthy Engineering Collage" year="2021-25" course="Btech (CSE) CGPA-7.6" /> 
+                <EducationCard image={sgnps} instiName="Narayana Junior Collage" year="2019-21" course="Percentage: 95.6%" />
+               
+                
               </div>
             </Card>
             <Card className="h-[320px] md:col-span-3 lg:col-span-1">

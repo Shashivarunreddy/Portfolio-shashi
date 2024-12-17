@@ -1,6 +1,6 @@
 import projectInferno from "@/assets/images/projectInferno.png";
-import projectAlumniAffairs from "@/assets/images/projectAlumniAffairs.png";
-import projectSpotify from "@/assets/images/spotify.png";
+import amazone from "@/assets/images/amazone.png.png";
+import WEB3 from "@/assets/images/WEB3.png.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -22,26 +22,29 @@ const portfolioProjects = [
     image: projectInferno,
   },
   {
-    company: "Delhi Technological University",
+    company: "WEB 3",
     year: "2024",
-    title: "Alumni Affairs Department Website",
+    title: "Solana Token Launchpad",
     results: [
-      { title: "Improved design" },
-      { title: "Intoduced functionality like Admin panel" },
-      { title: "Increased traffic by 58%" },
+      { title: "Connect to local wallets" },
+      { title: "Create a meme token" },
+      { title: "Sign the transactions" },
     ],
-    link: "http://alumniaffairs.dtu.ac.in",
-    code: "https://github.com/Harshdeepsingh0311/dtualumniaffairs",
-    image: projectAlumniAffairs,
+    link: "https://create-meme-tokens.vercel.app/",
+    code: "https://github.com/Shashivarunreddy/create-meme-tokens",
+    image: WEB3,
   },
   {
     company: "Self Project",
     year: "2023",
-    title: "Spotify UI Clone",
-    results: [{ title: "Cloned UI" }, { title: "Static Website" }],
-    code: "https://github.com/Harshdeepsingh0311/Spotify-UI-Clone",
-    link: "https://harshdeepsingh0311.github.io/Spotify-UI-Clone/",
-    image: projectSpotify,
+    title: "Amazone Clone",
+    results: [
+       { title: "Cloned UI" },
+       { title: "Static Website" }
+      ],
+    code: "https://github.com/Shashivarunreddy/E-commerce",
+    link: "https://shashivarunreddy.github.io/E-commerce/index.html",
+    image: amazone,
   },
 ];
 

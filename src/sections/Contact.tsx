@@ -21,7 +21,7 @@ export const ContactSection = () => {
               </p>
             </div>
             <div>
-              <a href="https://linktr.ee/harshdeepsinghbakshi">
+              <a href="https://www.linkedin.com/in/shashi-varun-28874124a/">
                 <button className="text-white bg-gray-900 inline-flex items-center gap-2 px-6 h-12 rounded-xl w-max border border-gray-900">
                   <span className="font-semibold">Contact me</span>
                   <ArrowUpRightIcon className="size-4" />

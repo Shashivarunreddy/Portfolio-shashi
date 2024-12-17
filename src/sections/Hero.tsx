@@ -1,4 +1,5 @@
-import memojiImage from "@/assets/images/memoji-sikh.png";
+
+import memojiImage2 from "@/assets/images/memoji-computer.png";
 import Image from "next/image";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
 import grainImage from "@/assets/images/grain.jpg";
@@ -108,7 +109,7 @@ export const HeroSection = () => {
       <div className="container">
         <div className="flex flex-col items-center">
           <Image
-            src={memojiImage}
+            src={memojiImage2}
             className="size-[150px]"
             alt="PersonPeekingFromComputer"
           />
@@ -123,7 +124,7 @@ export const HeroSection = () => {
         </div>
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tacking-wide">
-            Hi! <br /> I am Harshdeep Singh
+            Hi! <br /> I am Shashi Varun
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
             I specialize in transforming designs into functional, high
@@ -137,7 +138,7 @@ export const HeroSection = () => {
               <ArrowDown className="size-4" />
             </button>
           </a>
-          <a href="https://www.linkedin.com/in/harshdeepsingh0311/">
+          <a href="https://www.linkedin.com/in/shashi-varun-28874124a/">
             <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
               <span>👋</span>
               <span className="font-semibold">Lets Connect!</span>

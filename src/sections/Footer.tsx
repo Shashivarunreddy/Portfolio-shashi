@@ -3,15 +3,15 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 const footerLinks = [
   {
     title: "Instagram",
-    link: "https://www.instagram.com/harsh.codes/",
+    link: "https://www.instagram.com/shashisai27/",
   },
   {
     title: "LinkedIn",
-    link: "https://www.linkedin.com/in/harshdeepsingh0311/",
+    link: "https://www.linkedin.com/in/shashi-varun-28874124a/",
   },
   {
     title: "Github",
-    link: "https://github.com/Harshdeepsingh0311",
+    link: "https://github.com/Shashivarunreddy",
   },
 ];
 

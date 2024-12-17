@@ -7,7 +7,7 @@ const inter = Inter({subsets: ['latin'], variable: '--font-sans'});
 const calistoga = Calistoga({subsets: ['latin'], variable: '--font-serif', weight: ["400"]});
 
 export const metadata: Metadata = {
-  title: "Harshdeep Singh | Porfolio",
+  title: "Shashi Varun | Porfolio",
 };
 
 export default function RootLayout({
