@@ -6,9 +6,6 @@ This repository contains the code for my personal portfolio website, where I hig
 
 
 
-## 🚀 Live Site
-
-Visit the portfolio: [https://portfolio-harshdeepsingh.vercel.app](https://portfolio-harshdeepsingh.vercel.app)
 
 ## 🛠️ Tech Stack
 
